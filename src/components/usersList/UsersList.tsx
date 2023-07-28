@@ -1,5 +1,5 @@
 import { DestroyButton } from "./DestroyButton";
-import styles from "../page.module.css";
+import styles from "../../app/page.module.css";
 import { CreateButton } from "./CreateButton";
 
 export type User = { name: string; id: number };

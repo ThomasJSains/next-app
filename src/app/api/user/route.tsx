@@ -1,4 +1,4 @@
-import { User } from "@/app/components/UsersList";
+import { User } from "@/components/usersList/UsersList";
 import { NextResponse } from "next/server";
 
 const users = [{ name: "Tetra", id: 123 }];

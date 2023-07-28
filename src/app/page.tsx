@@ -1,8 +1,8 @@
+import { User, UsersList } from "@/components/usersList/UsersList";
 import styles from "./page.module.css";
-import { User, UsersList } from "./components/UsersList";
 
 export default async function Home() {
-  const users: User[] = await getUsersData();
+  const users = await getUsersData();
 
   return (
     <main className={styles.main}>
